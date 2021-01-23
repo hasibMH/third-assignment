@@ -1,3 +1,5 @@
+//https://github.com/hasibMH/third-assignment
+
 //1
 function kilometerToMeter (kilometer){
     var meter = kilometer * 1000;
@@ -25,6 +27,7 @@ else if (days<=20){
     var days10 = 10 * 100;
     var remaining= days - 10;
     var days20 = remaining * 80;
+    cost= days10 + days20;
 }
 else{
     var days10 = 10 * 100;
@@ -38,3 +41,15 @@ return cost;
 
 
 //4
+function megaFriend(name){
+    var max= name[0].length;
+    var meganame= name[0];
+    for(var i=1; i< name.length; i++){
+        var mega= name[i].length;
+        if(mega>max){
+            meganame= name[i];
+            max= mega;
+        }
+    }
+    return meganame;
+}
