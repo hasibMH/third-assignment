@@ -35,4 +35,6 @@ else{
 }
 return cost;
 }
-console.log(hotelCost(100))
+
+
+//4
